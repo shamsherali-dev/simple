@@ -1,0 +1,11 @@
+name: greeting
+on: 
+  push:
+    branches: [main]
+jobs:
+  dom:
+    runs-on: ubuntu-latest
+    steps:
+      - name: gt
+        run: echo "welcome here here simple website"
+        

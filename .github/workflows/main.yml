@@ -1,11 +1,12 @@
-name: greeting
+name: schedule_work
 on: 
-  push:
-    branches: [main]
+  schedule:
+    - cron: "15 40 * * *"
 jobs:
-  dom:
+  sd:
     runs-on: ubuntu-latest
     steps:
-      - name: gt
-        run: echo "welcome here here simple website"
-        
+      - name: intro
+        run: echo "this is schedule workflow here "
+
+  

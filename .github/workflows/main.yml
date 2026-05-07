@@ -1,7 +1,7 @@
 name: schedule_work
 on: 
   schedule:
-    - cron: "15 40 * * *"
+    - cron: "45 15 * * *"
 jobs:
   sd:
     runs-on: ubuntu-latest
